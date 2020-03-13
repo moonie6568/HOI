@@ -35,20 +35,18 @@ HOI-W数据集只包含一些比较常见的relationships
 
 ![image-20200309162139410](https://github.com/moonie6568/HOI/blob/master/img/6.png)
 
-![image-20200309162211268](https://github.com/moonie6568/HOI/blob/master/img/7.png)
-
 标定存在的问题：
 没有relation的object有时候标定，有时候不标定
+
+![image-20200309162211268](https://github.com/moonie6568/HOI/blob/master/img/7.png)
 
 ![image-20200309162259825](https://github.com/moonie6568/HOI/blob/master/img/8.png)
 
 ![image-20200309162634982](https://github.com/moonie6568/HOI/blob/master/img/9.png)
 
-![image-20200313192908587](https://github.com/moonie6568/HOI/blob/master/img/11.png)
-
 一些标注错误的图片，food hold drink?
 
-![image-20200313192908587](https://github.com/moonie6568/HOI/blob/master/img/12.png)
+![image-20200313192908587](https://github.com/moonie6568/HOI/blob/master/img/11.png)
 
 目前是可视化30张图片的结果，主要以单人为主，后续有时间再多可视化看一下
 
@@ -60,7 +58,7 @@ HOI-W数据集只包含一些比较常见的relationships
 
 **regression:**人和物体bboxes的检测仍然与目标检测相同，当与GT之间的IOU大于0.5时，即视为true positive。
 
-![image-20200309161742977](https://github.com/moonie6568/HOI/blob/master/img/13.png)
+![image-20200309161742977](https://github.com/moonie6568/HOI/blob/master/img/12.png)
 
 输出的prediction.json文件的格式如下：（http://picdataset.com/static/challenge/results.json）
 
