@@ -8,15 +8,15 @@ HOI-W数据集只包含一些比较常见的relationships
 
 训练验证集与测试集的数据集格式均不统一，以png格式为主，有部分的jpg,jpeg格式
 
-![image-20200309194302033](/home/lvyueming/.config/Typora/typora-user-images/image-20200309194302033.png)
+![image-20200309194302033](https://github.com/moonie6568/HOI/blob/master/img/2.png)
 
 包含的objects类别为11类：
 
-![image-20200309161205606](/home/lvyueming/.config/Typora/typora-user-images/image-20200309161205606.png)
+![image-20200309161205606](https://github.com/moonie6568/HOI/blob/master/img/3.png)
 
 包含的relations类别为10类：
 
-![image-20200309161247636](/home/lvyueming/.config/Typora/typora-user-images/image-20200309161247636.png)
+![image-20200309161247636](https://github.com/moonie6568/HOI/blob/master/img/4.png)
 
 给定的annotation包括人和物体的bbox,以及人和物体/人之间的relation，具体如下：
 
@@ -31,22 +31,22 @@ HOI-W数据集只包含一些比较常见的relationships
 可视化了相关的图片及标准，如下：
 大部分为灰色图片，部分为彩色图片
 
-![image-20200309162112702](/home/lvyueming/.config/Typora/typora-user-images/image-20200309162112702.png)
+![image-20200309162112702](https://github.com/moonie6568/HOI/blob/master/img/5.png)
 
-![image-20200309162139410](/home/lvyueming/.config/Typora/typora-user-images/image-20200309162139410.png)
+![image-20200309162139410](https://github.com/moonie6568/HOI/blob/master/img/6.png)
 
-![image-20200309162211268](/home/lvyueming/.config/Typora/typora-user-images/image-20200309162211268.png)
+![image-20200309162211268](https://github.com/moonie6568/HOI/blob/master/img/7.png)
 
 标定存在的问题：
 没有relation的object有时候标定，有时候不标定
 
-## ![image-20200309162259825](/home/lvyueming/.config/Typora/typora-user-images/image-20200309162259825.png)
+![image-20200309162259825](https://github.com/moonie6568/HOI/blob/master/img/8.png)
 
-## ![image-20200309162410250](/home/lvyueming/.config/Typora/typora-user-images/image-20200309162410250.png)![image-20200309162634982](/home/lvyueming/.config/Typora/typora-user-images/image-20200309162634982.png)
+![image-20200309162634982](https://github.com/moonie6568/HOI/blob/master/img/9.png)
 
 一些标注错误的图片，food hold drink?
 
-![image-20200313192908587](/home/lvyueming/.config/Typora/typora-user-images/image-20200313192908587.png)
+![image-20200313192908587](https://github.com/moonie6568/HOI/blob/master/img/10.png)
 
 目前是可视化30张图片的结果，主要以单人为主，后续有时间再多可视化看一下
 
@@ -58,7 +58,7 @@ HOI-W数据集只包含一些比较常见的relationships
 
 **regression:**人和物体bboxes的检测仍然与目标检测相同，当与GT之间的IOU大于0.5时，即视为true positive。
 
-![image-20200309161742977](/home/lvyueming/.config/Typora/typora-user-images/image-20200309161742977.png)
+![image-20200309161742977](https://github.com/moonie6568/HOI/blob/master/img/11.png)
 
 输出的prediction.json文件的格式如下：（http://picdataset.com/static/challenge/results.json）
 
