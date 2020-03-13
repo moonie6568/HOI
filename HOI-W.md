@@ -1,6 +1,6 @@
 # HOI-W 数据集介绍
 
-![image-20200305145054229](/home/lvyueming/.config/Typora/typora-user-images/image-20200305145054229.png)
+![image-20200305145054229](https://github.com/moonie6568/HOI/blob/master/img/1.png)
 
 HOI-W数据集只包含一些比较常见的relationships
 
