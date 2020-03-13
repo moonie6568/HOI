@@ -54,9 +54,9 @@ HOI-W数据集只包含一些比较常见的relationships
 
 采用mAP作为评测指标
 
-**classification:**与目标检测不同,只有当human detection, object detection and the interaction class都正确的情况下，才视为true positive。
+classification:与目标检测不同,只有当human detection, object detection and the interaction class都正确的情况下，才视为true positive。
 
-**regression:**人和物体bboxes的检测仍然与目标检测相同，当与GT之间的IOU大于0.5时，即视为true positive。
+regression:人和物体bboxes的检测仍然与目标检测相同，当与GT之间的IOU大于0.5时，即视为true positive。
 
 ![image-20200309161742977](https://github.com/moonie6568/HOI/blob/master/img/12.png)
 
